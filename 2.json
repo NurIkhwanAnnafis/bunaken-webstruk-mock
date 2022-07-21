@@ -1,0 +1,197 @@
+{
+  "message": "OK",
+  "data": {
+    "transaction": {
+      "id": "5c2b92cf-fb01-4d06-9481-043cf76086dd",
+      "shipment_cost": 0,
+      "promo_total": 0,
+      "sub_total": 23000,
+      "grand_total": 23000,
+      "order": {
+        "no": "2022041930001",
+        "status": 4,
+        "status_name": "PAID",
+        "type": 99,
+        "type_detail": "",
+        "date": "2022-04-19 18:00:00",
+        "quantity": 2,
+        "guest_total": 1,
+        "queue_no": "",
+        "note": "Catatan Order"
+      },
+      "cashier": {
+        "id": "5c2b92cf-fb01-4d06-9481-043cf76086dd",
+        "name": "Keni"
+      },
+      "customer": {
+        "id": "",
+        "name": "Ilham"
+      },
+      "service_charge": {
+        "type": 1,
+        "percentage": 0,
+        "nominal": 10000
+      },
+      "tax": {
+        "type": 1,
+        "percentage": 1,
+        "nominal": 1000
+      },
+      "additional_costs": [
+        {
+          "name": "a",
+          "cost": 150000
+        }
+      ],
+      "product_items": [
+        {
+          "id": "28f579ea-8f2b-4c5d-a873-b6d2c77d358e",
+          "note": "Less Sugar",
+          "quantity": 2,
+          "total": 10000,
+          "product": {
+            "id": "29f579ea-8f2b-4c5d-a873-b6d2c77d358f",
+            "name": "Janji Jiwa Oat Coffee Latte",
+            "image_url": "https://majoo.id/assets/download/thumbnail/proposal-english.png",
+            "price": 5000,
+            "unit_id": "UNIT71e6341cc09f7",
+            "unit_name": "Cup"
+          },
+          "promo_items": [
+            {
+              "id": "3aefe182-d2ad-484d-9ecb-9fd325b0ed311",
+              "default_value": 0,
+              "point_redeem": 0,
+              "value": 1000,
+              "promo": {
+                "id": "",
+                "name": "Diskon Gratis Produk",
+                "type": "Product",
+                "code": "ASD01"
+              }
+            }
+          ]
+        }
+      ],
+      "promo_items": [
+        {
+          "id": "3aefe182-d2ad-484d-9ecb-9fd325b0ed311",
+          "default_value": 0,
+          "point_redeem": 0,
+          "value": 1000,
+          "promo": {
+            "id": "",
+            "name": "Diskon Transaksi",
+            "type": "Transaction",
+            "code": "ASD02"
+          }
+        }
+      ],
+      "payment_items": [
+        {
+          "id": "3aefe182-d2ad-484d-9ecb-9fd325b0ed29",
+          "date": "2022-04-19 18:00:00",
+          "changes": 0,
+          "round_total": 0,
+          "total": 23000,
+          "cashier": {
+            "id": "1afge191-z1bc-313d-9abc-9fd325b0ab12",
+            "name": "Yusuf"
+          },
+          "method_items": [
+            {
+              "id": "1",
+              "total": 23000,
+              "info": "",
+              "is_single_qr": 0,
+              "is_reconciliation": 0,
+              "method": {
+                "id": 1,
+                "name": "Tunai"
+              },
+              "bank_information": {
+                "id": 1,
+                "pm_account_id": 1,
+                "account_name": "",
+                "reff_card_number": "",
+                "card_type": ""
+              },
+              "mdr_information": {
+                "value": 0,
+                "additional_cost": 0,
+                "reference_no": "QRS23219SK9KAS",
+                "reference_date": "2022-02-25 10:40:48"
+              }
+            }
+          ]
+        }
+      ],
+      "refund": {
+        "id": "3aefe182-d2ad-484d-9ecb-9fd325b0ed211",
+        "order_no": "RIVA001A001",
+        "date": "2022-01-20 19:10:21",
+        "total": 1000,
+        "note": "",
+        "reason": "Batal Pesan",
+        "payment_items": [
+          {
+            "id": "3aefe182-d2ad-484d-9ecb-9fd325b0ed29",
+            "date": "2022-04-19 18:00:00",
+            "changes": 0,
+            "round_total": 0,
+            "total": 23000,
+            "cashier": {
+              "id": "1afge191-z1bc-313d-9abc-9fd325b0ab12",
+              "name": "Yusuf"
+            },
+            "method_items": [
+              {
+                "id": "1",
+                "total": 23000,
+                "info": "",
+                "method": {
+                  "id": 1,
+                  "name": "Tunai"
+                },
+                "bank_information": {
+                  "id": 1,
+                  "pm_account_id": 1,
+                  "account_name": "",
+                  "reff_card_number": "",
+                  "card_type": ""
+                },
+                "mdr_information": {
+                  "value": 0,
+                  "additional_cost": 0,
+                  "reference_no": "QRS23219SK9KAS",
+                  "reference_date": "2022-02-25 10:40:48"
+                },
+                "is_single_qr": 0,
+                "is_reconciliation": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "user_business": {
+      "name": "Test Business",
+      "email": "tes@gmail.com",
+      "phone_number": "",
+      "logourl": "",
+      "business_type": 10,
+      "address": {
+        "province_code": 0,
+        "province_name": "Jakarta Selatan",
+        "city_code": 12,
+        "district_code": 0,
+        "postal_code": 0,
+        "latitude": "",
+        "longitude": "",
+        "additional": ""
+      },
+      "website": "",
+      "addtional_url": null
+    }
+  }
+}
