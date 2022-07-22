@@ -192,6 +192,31 @@
       },
       "website": "",
       "addtional_url": null
+    },
+    "setting_receipt": {
+      "receipt_display": {
+        "is_use_logo": 1,
+        "is_use_country": 1,
+        "is_use_business_name": 1,
+        "is_use_telephone": 1,
+        "is_use_outlet_name": 1,
+        "is_use_email": 1,
+        "is_use_address": 1,
+        "is_use_social_media": 0,
+        "is_use_city": 1,
+        "is_use_qr_code": 1,
+        "is_use_province": 1,
+        "is_use_no_antrian_active": 0,
+        "is_use_struct": 0,
+        "is_use_barcode": 1,
+        "is_use_invoice": 0,
+        "is_use_header": 1,
+        "is_use_footer": 1,
+        "is_use_note": 1,
+        "text_header_receipt": "Testing Header",
+        "text_footer_receipt": "Testing Footer",
+        "text_note_receipt": "Testing Catatan"
+      }
     }
   }
 }
