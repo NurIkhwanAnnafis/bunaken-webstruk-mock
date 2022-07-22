@@ -175,10 +175,10 @@
       }
     },
     "user_business": {
-      "name": "Test Business",
-      "email": "tes@gmail.com",
-      "phone_number": "",
-      "logourl": "",
+      "name": "Kopi Pagi",
+      "email": "Kopipagi@gmail.com",
+      "phone_number": "0874574521",
+      "logourl": "https://mayang.klopos.com/uploads/153684/1651038206.png",
       "business_type": 10,
       "address": {
         "province_code": 0,
